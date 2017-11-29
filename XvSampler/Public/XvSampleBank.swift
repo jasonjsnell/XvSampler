@@ -47,7 +47,7 @@ open class XvSampleBank:Equatable {
     //init with vital characteristic, which is the position of the sample bank. It is immutable and cannot properly function without it
     public init(position:Int){
         
-        print("Init sample bank", position)
+        print("SAMPLE BANK: Init bank", position)
         
         _position = position
         
