@@ -39,6 +39,28 @@ open class XvSampleBank:Equatable {
     }
     
     fileprivate var _fileNames:[String] = []
+    
+    //used to get a file for playback
+    public var fileName:String? {
+        get {
+            
+            if (_fileNames.count == 1){
+                
+                return _fileNames[0]
+                
+            } else if (_fileNames.count > 1){
+                
+                //multi sample, return random
+                return _fileNames[Utils.getRandomInt(within: _fileNames.count)]
+                
+            } else {
+                
+                //no sample (midi track), return nil
+                return nil
+            }
+        }
+    }
+    
     public var fileNames:[String] {
         get { return _fileNames }
         set { _fileNames = newValue }

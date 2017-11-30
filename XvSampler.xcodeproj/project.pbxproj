@@ -10,6 +10,7 @@
 		96277C6C1FCE572E001EE1DA /* XvSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96277C6B1FCE572E001EE1DA /* XvSampler.swift */; };
 		96277C781FCE57DA001EE1DA /* XvSampleBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96277C771FCE57DA001EE1DA /* XvSampleBank.swift */; };
 		96277C7B1FCE57FB001EE1DA /* SampleBanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96277C7A1FCE57FB001EE1DA /* SampleBanks.swift */; };
+		964491D71FCF832A00EDF619 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964491D61FCF832A00EDF619 /* Utils.swift */; };
 		969FE5281FCE5612009CE29B /* XvSampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 969FE5261FCE5612009CE29B /* XvSampler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		96277C6B1FCE572E001EE1DA /* XvSampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XvSampler.swift; path = Public/XvSampler.swift; sourceTree = "<group>"; };
 		96277C771FCE57DA001EE1DA /* XvSampleBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XvSampleBank.swift; path = Public/XvSampleBank.swift; sourceTree = "<group>"; };
 		96277C7A1FCE57FB001EE1DA /* SampleBanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBanks.swift; sourceTree = "<group>"; };
+		964491D61FCF832A00EDF619 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		969FE5231FCE5612009CE29B /* XvSampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XvSampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		969FE5261FCE5612009CE29B /* XvSampler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XvSampler.h; sourceTree = "<group>"; };
 		969FE5271FCE5612009CE29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				96277C7A1FCE57FB001EE1DA /* SampleBanks.swift */,
 				969FE52F1FCE56C2009CE29B /* Basics */,
 				969FE5241FCE5612009CE29B /* Products */,
+				964491D61FCF832A00EDF619 /* Utils.swift */,
 			);
 			path = Private;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				96277C6C1FCE572E001EE1DA /* XvSampler.swift in Sources */,
 				96277C7B1FCE57FB001EE1DA /* SampleBanks.swift in Sources */,
 				96277C781FCE57DA001EE1DA /* XvSampleBank.swift in Sources */,
+				964491D71FCF832A00EDF619 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

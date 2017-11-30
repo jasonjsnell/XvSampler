@@ -35,5 +35,8 @@ public class XvSampler{
         get { return SampleBanks.sharedInstance.sampleBanks }
     }
 
+    public func getSampleBank(fromPosition:Int) -> XvSampleBank? {
+        return SampleBanks.sharedInstance.getSampleBank(fromPosition: fromPosition)  
+    }
 
 }

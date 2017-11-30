@@ -34,5 +34,29 @@ internal class SampleBanks {
         if (debug) { print("SAMPLE BANKS: Sample bank added, total =", _sampleBanks.count) }
     }
     
+    //MARK: Getter
+    //MARK: get track
+    internal func getSampleBank(fromPosition:Int) -> XvSampleBank? {
+        
+        if (sampleBankTotal <= 0){
+            return nil
+        }
+        
+        //track is from a non track tap
+        if (fromPosition < 0){
+            if (debug) { print("SAMPLE BANKS: Requested position is zero or less than zero") }
+            return nil
+        }
+        
+        var position:Int = fromPosition
+        
+        //if more than total, reduce so avoid an error
+        if (position >= sampleBankTotal){
+            position = sampleBankTotal-1
+        }
+        
+        return _sampleBanks[position]
+    }
+    
     
 }
