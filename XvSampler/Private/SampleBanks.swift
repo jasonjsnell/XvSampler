@@ -26,7 +26,7 @@ internal class SampleBanks {
         get { return _sampleBanks.count }
     }
     
-    fileprivate let debug:Bool = true
+    fileprivate let debug:Bool = false
     
     //MARK: Add
     internal func add(sampleBank:XvSampleBank){

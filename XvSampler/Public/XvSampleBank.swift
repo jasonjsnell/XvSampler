@@ -14,6 +14,8 @@ public func == (lhs: XvSampleBank, rhs: XvSampleBank) -> Bool {
 }
 
 open class XvSampleBank:Equatable {
+    
+    let debug:Bool = false
 
     fileprivate var _position:Int
     public var position:Int {
@@ -69,7 +71,7 @@ open class XvSampleBank:Equatable {
     //init with vital characteristic, which is the position of the sample bank. It is immutable and cannot properly function without it
     public init(position:Int){
         
-        print("SAMPLE BANK: Init bank", position)
+        if (debug) { print("SAMPLE BANK: Init bank", position) }
         
         _position = position
         
